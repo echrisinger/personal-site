@@ -1,0 +1,22 @@
+.img-container {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* resize images */
+.img-container img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+.about-me-container {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+p {
+  margin: 0;
+}

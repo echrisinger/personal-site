@@ -1,0 +1,34 @@
+.project-entry {
+  display: flex;
+}
+
+.project-description {
+  height: 40%;
+  margin-left: 20px;
+}
+
+.project-brief-container {
+  flex-direction: column;
+  width: auto;
+  white-space: nowrap;
+}
+
+.project-title {
+  text-align: center;
+  margin: 0 auto auto;
+}
+
+.code-links {
+  margin-top: 10px;
+}
+
+a {
+  color: #0080FF;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+p {
+  margin-top: 0;
+  padding-top: 5px;
+}
