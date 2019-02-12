@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import './Projects.css';
+import './Section.css';
 
 export default class Projects extends PureComponent {
   projectEntries = () => {
@@ -12,22 +12,21 @@ export default class Projects extends PureComponent {
 
     let projectEntries = []
     projectDetails.forEach(proj => {
-      const codeLinks = null;
       projectEntries.push(
-        <div className='project-entry'>
-          <div className='project-brief-container'>
-            <t4 className='project-title'>{proj.title}</t4><br/>
-            <div className='code-links'>
+        <div className='section-entry'>
+          <div className='entry-brief-container'>
+            <t4 className='entry-title'>{proj.title}</t4><br/>
+            <div className='entry-info'>
               {proj.code_link ? <a href={proj.code_link}>Source Code</a> : null}
               {proj.live_link ? <a href={proj.live_link}>Live</a> : null }
             </div>
           </div>
-          <p className='project-description'>{proj.description}</p>
+          <p className='entry-description'>{proj.description}</p>
         </div>
       )
     })
     return(
-      <div className='project-entries-container'>
+      <div className='section-entries-container'>
         {projectEntries}
       </div>
     );

@@ -9,6 +9,7 @@
   width: 33%;
   color: #444444;
   margin: auto;
+  padding: 100px 0;
 }
 
 t1 {
@@ -29,6 +30,7 @@ p {
 
 .section-container {
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .section-title {

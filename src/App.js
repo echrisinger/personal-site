@@ -3,11 +3,8 @@ import './App.css';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
-//import Employment from './Employment';
-//import Education from './Education';
-import Footer from './Footer';
-
-
+import Employment from './Employment';
+import Education from './Education';
 
 class App extends PureComponent {
   render() {
@@ -17,7 +14,8 @@ class App extends PureComponent {
           <Header/>
           <AboutMe/>
           <Projects/>
-          <Footer/>
+          <Employment/>
+          <Education/>
         </div>
       </div>
     );

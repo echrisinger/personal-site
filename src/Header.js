@@ -6,7 +6,7 @@ class Header extends PureComponent {
     return (
       <header className='header'>
         <t1>Evan Chrisinger</t1>
-        <p className='brief'>Software Engineer</p>
+        <p className='brief'>Software Engineering & Stuff</p>
       </header>
     )
   }

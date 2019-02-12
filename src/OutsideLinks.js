@@ -2,14 +2,14 @@ import React, { PureComponent } from 'react';
 import githubLogo from './icons/github.svg';
 import linkedinLogo from './icons/linkedin.svg';
 import mediumLogo from './icons/medium.svg';
-import './Footer.css';
+import './OutsideLinks.css';
 
-class Footer extends PureComponent {
+class OutsideLinks extends PureComponent {
   render() {
     return (
-      <footer className="footer">
+      <div className="social-links-container">
         <a
-          className="footer-link"
+          className="social-link"
           href="https://github.com/echrisinger"
           target="_blank"
           rel="noopener noreferrer"
@@ -17,7 +17,7 @@ class Footer extends PureComponent {
           <img src={githubLogo} alt="github"/>
         </a>
         <a
-          className="footer-link"
+          className="social-link"
           href="https://linkedin.com/in/echrisinger"
           target="_blank"
           rel="noopener noreferrer"
@@ -25,16 +25,16 @@ class Footer extends PureComponent {
           <img src={linkedinLogo} alt="linkedin"/>
         </a>
         <a
-          className="footer-link"
+          className="social-link"
           href="https://medium.com/@evanchrisinger"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={mediumLogo} alt="medium"/>
         </a>
-      </footer>
+      </div>
     )
   }
 }
 
-export default Footer;
+export default OutsideLinks;

@@ -1,32 +1,38 @@
-.project-entry {
+.section-entry {
   display: flex;
+  margin-top: 40px;
 }
 
-.project-description {
-  height: 40%;
+.entry-description {
   margin-left: 20px;
 }
 
-.project-brief-container {
+.entry-brief-container {
   flex-direction: column;
   width: auto;
   white-space: nowrap;
+  min-width: 215px;
 }
 
-.project-title {
+.entry-title {
   text-align: center;
   margin: 0 auto auto;
 }
 
-.code-links {
+.entry-info {
   margin-top: 10px;
+}
+
+.entry-info p {
+  font-size: 18px;
 }
 
 a {
   color: #0080FF;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
 }
+
 
 p {
   margin-top: 0;
