@@ -32,6 +32,7 @@ hr {
   margin: auto 0;
   height: 2px;
   background-color: #444444;
+  border: 0px;
 }
 
 .personal-photo-container {

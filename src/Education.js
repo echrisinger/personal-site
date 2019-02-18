@@ -6,7 +6,7 @@ export default class Education extends PureComponent {
     const education = {
       title: ['Harvey Mudd', 'Claremont McKenna'],
       degree: 'Bachelors of Computer Science',
-      description: 'Studied Computer Science at Harvey Mudd College, outside Los Angeles, California. My later studies almost entirely focuesed on academic & engineering oriented Computer Science. Early in my education I excelled in Organic Chemistry & Mathematics. The analytical overlaps of these disciplines are fairly similar, and something I hope to return to in the future.',
+      description: 'Studied Computer Science at Harvey Mudd College, outside Los Angeles, California. I mostly focused on academic & engineering oriented Computer Science. Early in my education I enjoyed studying Organic Chemistry & Biology.',
       timespan: {
         start: moment('2015-09-01'),
         end: moment('2018-05-13')
