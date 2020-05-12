@@ -4,9 +4,9 @@ import moment from 'moment';
 export default class Education extends PureComponent {
   render() {
     const education = {
-      title: ['Harvey Mudd', 'Claremont McKenna'],
+      title: ['Claremont McKenna', 'Harvey Mudd (CS)'],
       degree: 'Bachelors of Computer Science',
-      description: 'Studied Computer Science at Harvey Mudd College, outside Los Angeles, California. I mostly focused on academic & engineering oriented Computer Science. Early in my education I enjoyed studying Organic Chemistry & Biology.',
+      description: 'Attended Claremont McKenna, and studied Computer Science off-campus at Harvey Mudd College, outside Los Angeles, California. I mostly focused on academic & engineering oriented Computer Science. Early in my education I enjoyed studying Organic Chemistry & Biology.',
       timespan: {
         start: moment('2015-09-01'),
         end: moment('2018-05-13')
@@ -15,7 +15,7 @@ export default class Education extends PureComponent {
 
     let schoolNames = [];
     education.title.forEach((school, i) => {
-      schoolNames.push(<div><t4 className='entry-title'>{school}{i !== education.title.length-1 ? ',' : null}</t4><br/></div>)
+      schoolNames.push(<div><t4 className='entry-title'>{school}{i !== education.title.length - 1 ? ',' : null}</t4><br /></div>)
     });
 
     return (
