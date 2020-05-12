@@ -14,7 +14,7 @@ class OutsideLinks extends PureComponent {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={githubLogo} alt="github"/>
+          <img src={githubLogo} alt="github" />
         </a>
         <a
           className="social-link"
@@ -22,15 +22,7 @@ class OutsideLinks extends PureComponent {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={linkedinLogo} alt="linkedin"/>
-        </a>
-        <a
-          className="social-link"
-          href="https://medium.com/@evanchrisinger"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={mediumLogo} alt="medium"/>
+          <img src={linkedinLogo} alt="linkedin" />
         </a>
       </div>
     )
