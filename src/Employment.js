@@ -6,7 +6,7 @@ export default class Empmloyment extends PureComponent {
     const employmentDetails = [
       {
         title: 'Transfix',
-        description: "Transfix is a digital freight brokerage working with some of America's largest brands. I have primarily worked on our internal and external API & automating communications protocols with our largest shippers.",
+        description: 'Transfix is a digital freight brokerage. I have primarily worked on our for on-demand rates system. Notable work includes a rules engine and deploying several ML models into a home-rolled model presentation framework with data scientists (feature stores, model presentation).',
         company_link: 'https://transfix.io/'
       },
       {
@@ -21,7 +21,7 @@ export default class Empmloyment extends PureComponent {
       employmentEntries.push(
         <div className='section-entry'>
           <div className='entry-brief-container'>
-            <t4 className='entry-title'>{proj.title}</t4><br/>
+            <t4 className='entry-title'>{proj.title}</t4><br />
             <div className='entry-info'>
               {proj.company_link ? <a href={proj.company_link}>Website</a> : null}
             </div>
@@ -30,7 +30,7 @@ export default class Empmloyment extends PureComponent {
         </div>
       )
     })
-    return(
+    return (
       <div className='section-entries-container'>
         {employmentEntries}
       </div>
