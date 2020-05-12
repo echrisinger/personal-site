@@ -9,11 +9,11 @@ export default class componentName extends PureComponent {
       <div>
         <div className='section-container'>
           <div className='personal-photo-container'>
-            <hr/>
+            <hr />
             <div className='img-container'>
-              <img src={meImg} alt='Image of Evan!'/>
+              <img src={meImg} alt='Evan!' />
             </div>
-            <hr/>
+            <hr />
           </div>
         </div>
         <div className='about-me-flex-container'>
@@ -21,13 +21,13 @@ export default class componentName extends PureComponent {
             <div className='section-title'><t3>Suh dude!</t3></div>
             <div className='about-me-container'>
               <p>
-                My name is Evan.<br/>
-                I'm a backend engineer @ Transfix in NYC.<br/>
-                Outside of work I surf, ski, travel & adventure whenever I can.<br/>
+                My name is Evan.<br />
+                I'm a backend engineer @ Transfix in NYC.<br />
+                Outside of work I surf, ski, travel & adventure whenever I can.<br />
               </p>
             </div>
           </div>
-          <OutsideLinks/>
+          <OutsideLinks />
         </div>
       </div>
     )

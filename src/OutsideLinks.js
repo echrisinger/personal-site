@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import githubLogo from './icons/github.svg';
 import linkedinLogo from './icons/linkedin.svg';
-import mediumLogo from './icons/medium.svg';
 import './OutsideLinks.css';
 
 class OutsideLinks extends PureComponent {
